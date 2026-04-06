@@ -11,8 +11,7 @@ if __name__ == "__main__":
         print("To enter the construct, run:")
         print("python -m venv matrix_env")
         print("source matrix_env/bin/activate # On Unix")
-        print("matrix_env\nScripts")
-        print("activate     # On Windows")
+        print("matrix_env\\Scripts\\activate # On Windows")
         print("\nThen run this program again.")
 
     if sys.prefix != sys.base_prefix:
@@ -25,4 +24,4 @@ if __name__ == "__main__":
         print("SUCCESS: You're in an isolated environment!")
         print("Safe to install packages without affecting the global system.\n")
         print("Package installation path:")
-        print(sys.path)
+        print(sys.path[-1])
