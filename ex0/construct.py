@@ -22,6 +22,7 @@ if __name__ == "__main__":
         print(f"Virtual Environment: {venv_name}")
         print(f"Environment Path: {venv_path}\n")
         print("SUCCESS: You're in an isolated environment!")
-        print("Safe to install packages without affecting the global system.\n")
+        print("Safe to install packages "
+              "without affecting the global system.\n")
         print("Package installation path:")
         print(sys.path[-1])
